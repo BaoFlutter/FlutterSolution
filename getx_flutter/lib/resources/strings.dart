@@ -1,0 +1,11 @@
+const String INFORMATION_INPUT = "Nhập thông tin";
+const String NAME = "Tên";
+const String WEBSITE = "Website";
+const String ZALO = "Zalo";
+const String DESCRIPTION = "Mô tả";
+const String NAME_INPUT = "Nhập tên";
+const String ZALO_INPUT = "Nhập số Zalo";
+const String WEBSITE_INPUT = "Nhập địa chỉ Website";
+const String DESCRIPTION_INPUT = "Nhập mô tả";
+const String CONFIRM = "Xác nhận";
+const String INFORMATION = "Thông tin";
