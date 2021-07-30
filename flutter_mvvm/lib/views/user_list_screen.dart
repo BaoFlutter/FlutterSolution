@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:mvvm/data_sources/api_services.dart';
 import 'package:mvvm/models/user.dart';
 import 'package:mvvm/resources/strings.dart';
-import 'package:mvvm/view_model/user_list_view_model.dart';
+import 'package:mvvm/view_models/user_list_view_model.dart';
 import 'package:provider/provider.dart';
 
 class UserListScreen extends StatefulWidget {

@@ -5,12 +5,9 @@ import 'package:mvvm/models/user.dart';
 import 'dart:convert' as json;
 import 'package:mvvm/resources/utils/fetch_data_exception.dart';
 
-
 import 'api_urls.dart';
 
 class ApiServices{
-
-
   Future<List<User>> fetchUser() {
     return http
         .get(ApiUrls().API_USER_LIST)
@@ -29,6 +26,5 @@ class ApiServices{
       return userList.map((contactRaw) => new User.fromJson(contactRaw)).toList();
     });
   }
-
 
 }
